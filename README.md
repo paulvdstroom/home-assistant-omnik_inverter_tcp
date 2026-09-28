@@ -50,7 +50,7 @@ This integration is not yet in the default HACS repository. You need to add it a
 1. Install [HACS](https://hacs.xyz) if not already installed
 2. Open HACS in Home Assistant
 3. Click the **⋮** menu (top right) → **Custom repositories**
-4. Add `https://github.com/cyberjunky/home-assistant-omnik_inverter` with category **Integration**
+4. Add `https://github.com/cyberjunky/home-assistant-omnik_inverter_tcp` with category **Integration**
 5. Search for "Omnik Inverter" in HACS
 6. Click **Download**
 7. Restart Home Assistant
@@ -58,7 +58,7 @@ This integration is not yet in the default HACS repository. You need to add it a
 
 ### Manual Installation
 
-1. Copy the `custom_components/omnik_inverter` folder to your `<config>/custom_components/` directory
+1. Copy the `custom_components/omnik_inverter_tcp` folder to your `<config>/custom_components/` directory
 2. Restart Home Assistant
 3. Add via Settings → Devices & Services
 
@@ -137,7 +137,7 @@ Add to `configuration.yaml`:
 logger:
   default: info
   logs:
-    custom_components.omnik_inverter: debug
+    custom_components.omnik_inverter_tcp: debug
 ```
 
 Alternatively, enable debug logging via the UI in **Settings** → **Devices & Services** → **Omnik Inverter** → **Enable debug logging**:
@@ -203,9 +203,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-[releases-shield]: https://img.shields.io/github/release/cyberjunky/home-assistant-omnik_inverter.svg?style=for-the-badge
-[releases]: https://github.com/cyberjunky/home-assistant-omnik_inverter/releases
-[commits-shield]: https://img.shields.io/github/commit-activity/y/cyberjunky/home-assistant-omnik_inverter.svg?style=for-the-badge
-[commits]: https://github.com/cyberjunky/home-assistant-omnik_inverter/commits/main
-[license-shield]: https://img.shields.io/github/license/cyberjunky/home-assistant-omnik_inverter.svg?style=for-the-badge
+[releases-shield]: https://img.shields.io/github/release/cyberjunky/home-assistant-omnik_inverter_tcp.svg?style=for-the-badge
+[releases]: https://github.com/cyberjunky/home-assistant-omnik_inverter_tcp/releases
+[commits-shield]: https://img.shields.io/github/commit-activity/y/cyberjunky/home-assistant-omnik_inverter_tcp.svg?style=for-the-badge
+[commits]: https://github.com/cyberjunky/home-assistant-omnik_inverter_tcp/commits/main
+[license-shield]: https://img.shields.io/github/license/cyberjunky/home-assistant-omnik_inverter_tcp.svg?style=for-the-badge
 [maintenance-shield]: https://img.shields.io/badge/maintainer-cyberjunky-blue.svg?style=for-the-badge

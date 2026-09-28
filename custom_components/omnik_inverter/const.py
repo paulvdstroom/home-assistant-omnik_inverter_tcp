@@ -11,7 +11,7 @@ from homeassistant.const import (
     CONF_SCAN_INTERVAL,
 )
 
-DOMAIN: Final = "omnik_inverter"
+DOMAIN: Final = "omnik_inverter_tcp"
 
 # Configuration keys
 CONF_SERIAL_NUMBER: Final = "serial_number"
