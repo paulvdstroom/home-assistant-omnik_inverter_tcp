@@ -1,9 +1,3 @@
-<! ## [![GitHub Release][releases-shield]][releases]>
-<!## [![GitHub Activity][commits-shield]][commits]>
-<!## [![License][license-shield]](LICENSE)>
-
-
-
 
 # Omnik Inverter TCP Custom Integration
 
@@ -172,11 +166,3 @@ If you find this integration useful, please consider supporting its original cre
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
----
-
-<!# [releases-shield]: https://img.shields.io/github/release/cyberjunky/home-assistant-omnik_inverter_tcp.svg?style=for-the-badge>
-<!# [releases]: https://github.com/cyberjunky/home-assistant-omnik_inverter_tcp/releases>
-<!# [commits-shield]: https://img.shields.io/github/commit-activity/y/cyberjunky/home-assistant-omnik_inverter_tcp.svg?style=for-the-badge>
-<!# [commits]: https://github.com/cyberjunky/home-assistant-omnik_inverter_tcp/commits/main>
-<!# [license-shield]: https://img.shields.io/github/license/cyberjunky/home-assistant-omnik_inverter.svg?style=for-the-badge>
-<!# [maintenance-shield]: https://img.shields.io/badge/maintainer-cyberjunky-blue.svg?style=for-the-badge>
