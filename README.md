@@ -1,45 +1,16 @@
-[![GitHub Release][releases-shield]][releases]
-[![GitHub Activity][commits-shield]][commits]
-[![License][license-shield]](LICENSE)
-![Project Maintenance][maintenance-shield]
+# [![GitHub Release][releases-shield]][releases]
+# [![GitHub Activity][commits-shield]][commits]
+# [![License][license-shield]](LICENSE)
 
-[![Donate via PayPal](https://img.shields.io/badge/Donate-PayPal-blue.svg?style=for-the-badge&logo=paypal)](https://www.paypal.me/cyberjunkynl/)
-[![Sponsor on GitHub](https://img.shields.io/badge/Sponsor-GitHub-red.svg?style=for-the-badge&logo=github)](https://github.com/sponsors/cyberjunky)
 
-# Omnik Inverter Custom Integration
 
-A Home Assistant custom integration that monitors older Omnik Solar inverters via the network using special TCP packets. Get real-time insights into production, yield, and more.
 
-## Supported Features
+# Omnik Inverter TCP Custom Integration
 
-Monitor your Omnik Solar inverter with these sensors:
+This is a fork of the Cyberjynky Home Assistant custom integration that monitors older Omnik Solar inverters via the network using special TCP packets. The only thing I have changed is the domain name so it can run next to other existing Omnik Inverter integrations.
 
-- **Status** - Online/Offline status
-- **Actual Power** - Current power output (W)
-- **Energy Today** - Energy generated today (kWh)
-- **Energy Total** - Lifetime energy generated (kWh)
-- **Hours Total** - Total operating hours
-- **Inverter Serial Number** - Device serial number
-- **Temperature** - Inverter temperature (°C)
-- **DC Input Voltage** - PV panel voltage (V)
-- **DC Input Current** - PV panel current (A)
-- **AC Output Voltage** - Grid voltage (V)
-- **AC Output Current** - Grid current (A)
-- **AC Output Frequency** - Grid frequency (Hz)
-- **AC Output Power** - Grid power output (W)
+For more info go to [Cyberjunky integration](https://github.com/cyberjunky/home-assistant-omnik_inverter)
 
-All sensors are created by default and grouped under a single device for easy management.
-
-## Screenshots
-
-![Setup Dialog](screenshots/omnik-setup.png) ![Sensors](screenshots/omnik-sensors.png)
-
-## Requirements
-
-- **Omnik Solar Inverter** with network connectivity
-- **Inverter IP address** accessible from Home Assistant
-- **Inverter serial number** (found on the device label)
-- **TCP port** (usually 8899)
 
 ## Installation
 
@@ -50,8 +21,8 @@ This integration is not yet in the default HACS repository. You need to add it a
 1. Install [HACS](https://hacs.xyz) if not already installed
 2. Open HACS in Home Assistant
 3. Click the **⋮** menu (top right) → **Custom repositories**
-4. Add `https://github.com/cyberjunky/home-assistant-omnik_inverter_tcp` with category **Integration**
-5. Search for "Omnik Inverter" in HACS
+4. Add `https://github.com/paulvdstroom/home-assistant-omnik_inverter_tcp` with category **Integration**
+5. Search for "Omnik Inverter TCP" in HACS
 6. Click **Download**
 7. Restart Home Assistant
 8. Add via Settings → Devices & Services
@@ -183,16 +154,16 @@ pip install -r requirements_lint.txt
 
 ## 💖 Support This Project
 
-If you find this integration useful, please consider supporting its continued development:
+If you find this integration useful, please consider supporting its original creator Cyberjunky:
 
 ### 🌟 Ways to Support
 
-- **⭐ Star this repository** - Help others discover the project
-- **💰 Financial Support** - Contribute to development and hosting costs
-- **🐛 Report Issues** - Help improve stability and compatibility
-- **📖 Spread the Word** - Share with other solar enthusiasts
+# - **⭐ Star his repository** - Help others discover the project
+# - **💰 Financial Support** - Contribute to development and hosting costs
+# - **🐛 Report Issues** - Help improve stability and compatibility
+# - **📖 Spread the Word** - Share with other solar enthusiasts
 
-### 💳 Financial Support Options
+### 💳 Financial Support Options for CyberJunky (not for me!)
 
 [![Donate via PayPal](https://img.shields.io/badge/Donate-PayPal-blue.svg?style=for-the-badge&logo=paypal)](https://www.paypal.me/cyberjunkynl/)
 [![Sponsor on GitHub](https://img.shields.io/badge/Sponsor-GitHub-red.svg?style=for-the-badge&logo=github)](https://github.com/sponsors/cyberjunky)
@@ -203,9 +174,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-[releases-shield]: https://img.shields.io/github/release/cyberjunky/home-assistant-omnik_inverter_tcp.svg?style=for-the-badge
-[releases]: https://github.com/cyberjunky/home-assistant-omnik_inverter_tcp/releases
-[commits-shield]: https://img.shields.io/github/commit-activity/y/cyberjunky/home-assistant-omnik_inverter_tcp.svg?style=for-the-badge
-[commits]: https://github.com/cyberjunky/home-assistant-omnik_inverter_tcp/commits/main
-[license-shield]: https://img.shields.io/github/license/cyberjunky/home-assistant-omnik_inverter_tcp.svg?style=for-the-badge
-[maintenance-shield]: https://img.shields.io/badge/maintainer-cyberjunky-blue.svg?style=for-the-badge
+# [releases-shield]: https://img.shields.io/github/release/cyberjunky/home-assistant-omnik_inverter_tcp.svg?style=for-the-badge
+# [releases]: https://github.com/cyberjunky/home-assistant-omnik_inverter_tcp/releases
+# [commits-shield]: https://img.shields.io/github/commit-activity/y/cyberjunky/home-assistant-omnik_inverter_tcp.svg?style=for-the-badge
+# [commits]: https://github.com/cyberjunky/home-assistant-omnik_inverter_tcp/commits/main
+# [license-shield]: https://img.shields.io/github/license/cyberjunky/home-assistant-omnik_inverter.svg?style=for-the-badge
+# [maintenance-shield]: https://img.shields.io/badge/maintainer-cyberjunky-blue.svg?style=for-the-badge
